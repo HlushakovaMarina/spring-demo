@@ -27,5 +27,6 @@ public class StudentController {
         int age = student.getAge();
         student.setAge(age + 10);
         return repository.save(student);
+
     }
 }
